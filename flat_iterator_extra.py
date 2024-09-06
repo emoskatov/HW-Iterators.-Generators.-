@@ -8,7 +8,6 @@ class FlatIterator:
         self.current_iterator = iter(self.list_of_list)  # определяем итератор для списка
         return self
 
-
     def __next__(self):
         while True:
             try:
